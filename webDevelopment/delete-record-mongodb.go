@@ -18,7 +18,8 @@ const (
 
 var session *mgo.Session
 var connectionError error
-//var session *mgo.Session
+
+//var session *mgo.Session---
 
 type Employee struct {
 	Id   int    `json:"uid"`
